@@ -1,0 +1,68 @@
+/**{
+    margin: 0%;
+    padding: 0%;
+
+}*/
+
+.container{
+    /*border: 2px solid black;*/
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    min-height: 97vh;
+    display: grid;
+    justify-items: center;
+    align-content: center
+}
+.calculator{
+    border: 3px solid blue;
+    width: 30vw;
+    height: 30vw;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    border-radius: 35px;
+    background-color: #141314ba;
+}
+.screen input{
+    width: 25vw;
+    height: 4vw;
+    border: 5px solid #36364e47;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 5vh;
+    font-style: italic;
+    font-family: Agency FB;
+    background-color: #95b1b1;
+}
+.btn{
+    /*border: 2px solid black;*/
+    width: 25vw;
+    border-radius: 10px;
+    height: 20vw;
+    display: grid;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    justify-items: center;
+}
+.btn td button{
+    width: 12vh;
+    height: 7vh;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    font-size: 5vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading h1{
+    font-size: 10vh;
+    font-family: fantasy;
+    text-transform: capitalize;
+    border-bottom: 10px solid;
+}
+#equal{
+    background-color: darkorange;
+}
